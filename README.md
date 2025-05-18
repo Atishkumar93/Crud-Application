@@ -1,2 +1,2 @@
 # Crud-Application
-This is my first project in php
+This is my first Git repository 
