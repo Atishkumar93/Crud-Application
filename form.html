@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-    <form  action=""   methode="post">
-        <h1>form submit</h1>
-        <lebel>name</lebel>
-        <input type="text"></input>
-
-    </form>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form  action=""   methode="post">
+        <fieldset class="container bg-info">
+            <legend>Enter prosnal ditails</legend>
+        <h1>form submit</h1>
+        <lebel>name</lebel>
+        <input type="text"></input><br><br>
+        <lebel>password</lebel>
+        <input type="password"></input><br><br>
+        <lebel>gender</lebel> <input type="radio" name="gender" id="male"><level for="male">male</level><input type="radio" name="gender" id="female"><level for="female">female</level><br><br>
+        <lebel>hobbies</lebel> <input type="checkbox" name="hobbies" id="hobbies"><level for="hobbies">read news</level><input type="checkbox" name="hobbies" id="hobbies"><level for="hobbies">treveling</level><br><br>
+       <lebel>country</lebel>
+       <select name=""  size=""><br><br>
+        <option>india</option>
+        <option>pakistan</option>
+        <option>china</option>
+        <option>nepal</option>
+        <option>usa</option>
+       </select><br><br>
+       <lebel>massege</lebel>
+        <textarea  rows="10" cols="30" placeholder="enter your massege"></textarea><br><br>
+        <button class="dark">submit</button>
+    </fieldset>
+    </form>
     
 </body>
 </html>

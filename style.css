@@ -1,0 +1,61 @@
+.container {
+    padding-top: 0px;
+    ;
+    margin-top: 20px;
+    ;
+    border: 3px solid black;
+    width: 1000px;
+
+}
+
+.row ul li {
+    display: inline-block;
+    margin: 1px; 
+    color: white;
+    cursor: pointer;
+}
+
+.a1 {
+    background-color: aqua;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.main-content {
+    text-align: center;
+    margin-left: 265px;
+    margin-right: 265px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    background-color: #eee;
+    width: 500px;
+    border: 2px solid rgb(17, 17, 17);
+    padding: 50px;
+    padding-left: 10px;
+}
+
+form {
+    margin-top: 10px;
+
+}
+
+#main {
+    padding-left: 500px;
+}
+
+#all {
+    text-align: center;
+    padding-right: 500px;
+}
